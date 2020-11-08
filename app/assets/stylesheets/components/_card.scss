@@ -1,6 +1,13 @@
 .project-card {
   height: 90vh;
+  width: 80%;
+  margin: 1em auto;
   background-color: grey;
   padding: 2em;
-  margin: 1em;
+}
+
+@media (max-width:600px) {
+  .project-card {
+    width: 90%;
+  }
 }

@@ -16,5 +16,9 @@ body {
   align-items: center;
   .header-text {
     text-align: center;
+    padding: 2em;
+    p {
+      padding-top: 1em;
+    }
   }
 }
