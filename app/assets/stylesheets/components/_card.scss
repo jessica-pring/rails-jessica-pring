@@ -6,8 +6,19 @@
   padding: 2em;
 }
 
+.project_img {
+  width: 50%;
+  height: auto;
+}
+
 @media (max-width:600px) {
   .project-card {
     width: 90%;
+    padding: 1em;
+  }
+
+  .project_img {
+    width: 100%;
+    height: auto;
   }
 }
