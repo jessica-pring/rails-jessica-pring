@@ -1,15 +1,21 @@
 // Specific CSS for your home-page
 * {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
   margin: 0px;
   padding: 0px;
   font-family: 'Helvetica', Arial, sans-serif;
+  background: rgb(0,109,119);
+  background: linear-gradient(324deg, rgba(0,109,119,1) 0%, rgba(29,53,87,1) 100%);
+  color: #edf6f9;
+  -webkit-font-smoothing: antialiased;
 }
 
 .header {
+  padding-top: 50px;
   height: 90vh;
   display: flex;
   justify-content: center;
