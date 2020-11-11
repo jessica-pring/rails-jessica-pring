@@ -1,11 +1,21 @@
+#projects {
+  margin-bottom: 10%;
+  h2 {
+    text-align: center;
+    font-size: 2.2em;
+    padding-top: 20px;
+  }
+}
+
 .project-card {
-  height: 90vh;
+  height: 80vh;
   width: 80%;
   margin: 1em auto;
+  display: flex;
+  align-items: center;
 }
 
 .main-card {
-  padding-top: 8em;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
