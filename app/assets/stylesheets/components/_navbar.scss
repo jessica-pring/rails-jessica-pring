@@ -49,6 +49,7 @@
     position: absolute;
     right: 0px;
     top: 0px;
+    z-index: 1000000;
   }
   .nav > .nav-btn > label {
     display: inline-block;
@@ -67,6 +68,7 @@
   }
   .nav > .nav-links {
     position: absolute;
+    z-index: 1000000;
     display: block;
     width: 100%;
     background-color: rgba(29,53,87,0.8);

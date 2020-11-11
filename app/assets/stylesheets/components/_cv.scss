@@ -6,10 +6,18 @@
     padding-top: 50px;
     text-align: center;
   }
+  .cv-info {
+    padding-top: 5%;
+  }
 }
 
 .section-info {
-  margin-top: 2em;
+  margin-top: 3em;
+}
+
+.text-bold {
+  font-size: 1em;
+  font-style: italic;
 }
 
 #edu-row {
@@ -17,9 +25,12 @@
   margin-bottom: 0.2em;
 }
 
+#date {
+  text-align: right;
+}
+
 @media (max-width:600px) {
-  #cv {
-    // width: 94vw;
-    // margin: auto;
+  #date {
+    text-align: left;
   }
 }
