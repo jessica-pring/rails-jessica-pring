@@ -5,6 +5,7 @@
   position: fixed;
   display: flex;
   justify-content: space-between;
+  z-index: 10000;
 }
 
 .nav > .nav-header {
