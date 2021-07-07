@@ -36,6 +36,15 @@
   margin-top: 1em;
 }
 
+#udemy-link {
+  text-decoration: none;
+  color: white;
+  transition: ease-in 0.2s;
+  &:hover {
+    opacity: 70%;
+  }
+}
+
 .tech {
   p {
     margin: 0;
@@ -56,20 +65,18 @@
 }
 
 .yellow {
-  background-color: #FFBE0B;
+  background-color: #ffbe0b;
 }
 
 .blue {
-  background-color: #50C9CE;
+  background-color: #50c9ce;
 }
 
 .green {
-  background-color: #B14AED;
+  background-color: #b14aed;
 }
 
-
-
-@media (max-width:600px) {
+@media (max-width: 600px) {
   .project-card {
     width: 90%;
     padding: 1em;
@@ -95,7 +102,7 @@
   }
 }
 
-@media (max-width:350px) {
+@media (max-width: 350px) {
   #card-1 {
     margin-top: 20px;
   }
